@@ -1,0 +1,11 @@
+<h1>Other#index</h1>
+<p>Find me in app/views/other/index.html.erb</p>
+
+<div style="margin-top: 3rem;">
+  <%= form_with scope: :any, url: post_something_path do |form| %>
+      <%= form.submit "Post something" %>
+  <% end %>
+  <turbo-frame id="messages">
+    <div>An empty message</div>
+  </turbo-frame>
+</div>
