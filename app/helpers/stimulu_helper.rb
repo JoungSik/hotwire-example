@@ -1,0 +1,2 @@
+module StimuluHelper
+end
